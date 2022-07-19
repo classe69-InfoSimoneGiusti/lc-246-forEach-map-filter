@@ -15,7 +15,7 @@ const mammiferi = animali.filter( (animale) => {
 
 
 // con uso avanzato di arrow function ed operatori ternari
-const mammiferiAvanzato = animali.filter(animale => animale.classe=="mammiferi"?true:false);
+const mammiferiAvanzato = animali.filter(animale => animale.classe=="mammiferi");
 
 console.log(mammiferi);
 console.log(mammiferiAvanzato);
